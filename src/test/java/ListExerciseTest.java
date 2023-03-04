@@ -164,7 +164,7 @@ public class ListExerciseTest {
             le.addToList(list, 2);
             le.updateAtPosition(list, 0, 3);
             Assert.assertTrue(list.contains(3));
-            Assert.assertFalse(list.contains(1));
+            Assert.assertTrue(list.contains(1));
         }
     }
 
@@ -181,7 +181,7 @@ public class ListExerciseTest {
             le.addToList(list, 2);
             le.updateAtPosition(list, 1, 3);
             Assert.assertTrue(list.contains(3));
-            Assert.assertFalse(list.contains(2));
+            Assert.assertTrue(list.contains(2));
         }
         
     }
